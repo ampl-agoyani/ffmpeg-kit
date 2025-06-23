@@ -1,6 +1,10 @@
 require 'json'
 
-package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
+{
+  "name": "ffmpeg-kit-react-native",
+  "version": "6.0.1",
+  "description": "FFmpegKit React Native binding"
+}
 
 Pod::Spec.new do |s|
   s.name         = "ffmpeg-kit-react-native"
